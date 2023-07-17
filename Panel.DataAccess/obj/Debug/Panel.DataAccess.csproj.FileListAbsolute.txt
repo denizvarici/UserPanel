@@ -1,0 +1,14 @@
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\Panel.DataAccess.dll.config
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\Panel.DataAccess.dll
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\Panel.DataAccess.pdb
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\EntityFramework.dll
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\Panel.Entitites.dll
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\Panel.Entitites.pdb
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\EntityFramework.xml
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.csprojAssemblyReference.cache
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.csproj.CoreCompileInputs.cache
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.csproj.CopyComplete
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.dll
+R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.pdb
