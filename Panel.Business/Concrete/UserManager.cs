@@ -48,5 +48,17 @@ namespace Panel.Business.Concrete
             ValidationTool.Validate(new UserValidator(), user);
             _userDal.SignUp(user);
         }
+
+        public void ControlUsername(User user)
+        {
+            ValidationTool.Validate(new UserValidator(), user);
+            _userDal.ControlUsername(user);
+        }
+
+        public void ControlMail(User user)
+        {
+            ValidationTool.Validate(new UserValidator(), user);
+            _userDal.ControlMailAddress(user);
+        }
     }
 }

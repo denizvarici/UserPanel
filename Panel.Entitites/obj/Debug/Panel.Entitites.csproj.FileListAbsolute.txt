@@ -4,3 +4,9 @@ R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.Entitites\obj\Debug\Panel.En
 R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.Entitites\obj\Debug\Panel.Entitites.csproj.CoreCompileInputs.cache
 R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.Entitites\obj\Debug\Panel.Entitites.dll
 R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.Entitites\obj\Debug\Panel.Entitites.pdb
+R:\GITHUB\UserPanel\Panel.Entitites\bin\Debug\Panel.Entitites.dll
+R:\GITHUB\UserPanel\Panel.Entitites\bin\Debug\Panel.Entitites.pdb
+R:\GITHUB\UserPanel\Panel.Entitites\obj\Debug\Panel.Entitites.csprojAssemblyReference.cache
+R:\GITHUB\UserPanel\Panel.Entitites\obj\Debug\Panel.Entitites.csproj.CoreCompileInputs.cache
+R:\GITHUB\UserPanel\Panel.Entitites\obj\Debug\Panel.Entitites.dll
+R:\GITHUB\UserPanel\Panel.Entitites\obj\Debug\Panel.Entitites.pdb

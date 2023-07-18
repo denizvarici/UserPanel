@@ -39,5 +39,35 @@ namespace Panel.DataAccess.Concrete.EntityFramework
                 }
             }
         }
+
+        public void ControlUsername(User user)
+        {
+            using (PanelContext context = new PanelContext())
+            {
+                if (!context.Users.Any(u => u.Username == user.Username))
+                {
+                    
+                }
+                else
+                {
+                    throw new Exception("kullanici adi zaten kullanimda");
+                }
+            }
+        }
+
+        public void ControlMailAddress(User user)
+        {
+            using (PanelContext context = new PanelContext())
+            {
+                if (!context.Users.Any(u => u.Mail == user.Mail))
+                {
+
+                }
+                else
+                {
+                    throw new Exception("bu mail adresi zaten kullanimda!");
+                }
+            }
+        }
     }
 }

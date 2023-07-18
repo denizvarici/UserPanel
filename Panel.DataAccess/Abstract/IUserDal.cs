@@ -12,5 +12,7 @@ namespace Panel.DataAccess.Abstract
         bool Login(User user);
 
         void SignUp(User user);
+        void ControlUsername(User user);
+        void ControlMailAddress(User user);
     }
 }

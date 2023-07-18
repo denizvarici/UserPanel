@@ -12,3 +12,17 @@ R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.D
 R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.csproj.CopyComplete
 R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.dll
 R:\Masaüstü\C#Projects\myProjects\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.pdb
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\Panel.DataAccess.dll.config
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\Panel.DataAccess.dll
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\Panel.DataAccess.pdb
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\EntityFramework.dll
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\Panel.Entitites.dll
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\Panel.Entitites.pdb
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\EntityFramework.xml
+R:\GITHUB\UserPanel\Panel.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+R:\GITHUB\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.csprojAssemblyReference.cache
+R:\GITHUB\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.csproj.CoreCompileInputs.cache
+R:\GITHUB\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.csproj.CopyComplete
+R:\GITHUB\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.dll
+R:\GITHUB\UserPanel\Panel.DataAccess\obj\Debug\Panel.DataAccess.pdb

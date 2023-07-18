@@ -16,6 +16,8 @@ namespace Panel.Business.Abstract
 
         bool Login(User user);
         void SignUp(User user);
+        void ControlUsername(User user);
+        void ControlMail(User user);
 
 
     }

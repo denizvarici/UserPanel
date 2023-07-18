@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.gbxLogin = new System.Windows.Forms.GroupBox();
+            this.tbxMailAddress = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnSeePswd2 = new System.Windows.Forms.Button();
+            this.btnSeePswd1 = new System.Windows.Forms.Button();
             this.lblPasswordVerification = new System.Windows.Forms.Label();
             this.tbxPasswordVerification = new System.Windows.Forms.TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
@@ -36,13 +40,13 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.tbxPassword = new System.Windows.Forms.TextBox();
             this.tbxUsername = new System.Windows.Forms.TextBox();
-            this.btnSeePswd1 = new System.Windows.Forms.Button();
-            this.btnSeePswd2 = new System.Windows.Forms.Button();
             this.gbxLogin.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbxLogin
             // 
+            this.gbxLogin.Controls.Add(this.tbxMailAddress);
+            this.gbxLogin.Controls.Add(this.label1);
             this.gbxLogin.Controls.Add(this.btnSeePswd2);
             this.gbxLogin.Controls.Add(this.btnSeePswd1);
             this.gbxLogin.Controls.Add(this.lblPasswordVerification);
@@ -59,11 +63,48 @@
             this.gbxLogin.TabIndex = 7;
             this.gbxLogin.TabStop = false;
             this.gbxLogin.Text = "Kayıt Ekranı";
+            this.gbxLogin.Enter += new System.EventHandler(this.gbxLogin_Enter);
+            // 
+            // tbxMailAddress
+            // 
+            this.tbxMailAddress.Location = new System.Drawing.Point(281, 169);
+            this.tbxMailAddress.Name = "tbxMailAddress";
+            this.tbxMailAddress.Size = new System.Drawing.Size(349, 25);
+            this.tbxMailAddress.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(211, 172);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(64, 19);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Mail:";
+            // 
+            // btnSeePswd2
+            // 
+            this.btnSeePswd2.Location = new System.Drawing.Point(636, 289);
+            this.btnSeePswd2.Name = "btnSeePswd2";
+            this.btnSeePswd2.Size = new System.Drawing.Size(33, 23);
+            this.btnSeePswd2.TabIndex = 8;
+            this.btnSeePswd2.Text = "*";
+            this.btnSeePswd2.UseVisualStyleBackColor = true;
+            this.btnSeePswd2.Click += new System.EventHandler(this.btnSeePswd2_Click);
+            // 
+            // btnSeePswd1
+            // 
+            this.btnSeePswd1.Location = new System.Drawing.Point(636, 229);
+            this.btnSeePswd1.Name = "btnSeePswd1";
+            this.btnSeePswd1.Size = new System.Drawing.Size(33, 23);
+            this.btnSeePswd1.TabIndex = 7;
+            this.btnSeePswd1.Text = "*";
+            this.btnSeePswd1.UseVisualStyleBackColor = true;
+            this.btnSeePswd1.Click += new System.EventHandler(this.btnSeePswd1_Click);
             // 
             // lblPasswordVerification
             // 
             this.lblPasswordVerification.AutoSize = true;
-            this.lblPasswordVerification.Location = new System.Drawing.Point(98, 257);
+            this.lblPasswordVerification.Location = new System.Drawing.Point(90, 289);
             this.lblPasswordVerification.Name = "lblPasswordVerification";
             this.lblPasswordVerification.Size = new System.Drawing.Size(185, 19);
             this.lblPasswordVerification.TabIndex = 6;
@@ -71,7 +112,7 @@
             // 
             // tbxPasswordVerification
             // 
-            this.tbxPasswordVerification.Location = new System.Drawing.Point(289, 254);
+            this.tbxPasswordVerification.Location = new System.Drawing.Point(281, 286);
             this.tbxPasswordVerification.Name = "tbxPasswordVerification";
             this.tbxPasswordVerification.PasswordChar = '*';
             this.tbxPasswordVerification.Size = new System.Drawing.Size(349, 25);
@@ -80,7 +121,7 @@
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
-            this.lblUsername.Location = new System.Drawing.Point(120, 139);
+            this.lblUsername.Location = new System.Drawing.Point(112, 110);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(163, 19);
             this.lblUsername.TabIndex = 1;
@@ -88,7 +129,7 @@
             // 
             // btnSignUp
             // 
-            this.btnSignUp.Location = new System.Drawing.Point(501, 312);
+            this.btnSignUp.Location = new System.Drawing.Point(493, 358);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(137, 47);
             this.btnSignUp.TabIndex = 6;
@@ -99,7 +140,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(208, 197);
+            this.lblPassword.Location = new System.Drawing.Point(200, 229);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(75, 19);
             this.lblPassword.TabIndex = 2;
@@ -107,7 +148,7 @@
             // 
             // tbxPassword
             // 
-            this.tbxPassword.Location = new System.Drawing.Point(289, 194);
+            this.tbxPassword.Location = new System.Drawing.Point(281, 226);
             this.tbxPassword.Name = "tbxPassword";
             this.tbxPassword.PasswordChar = '*';
             this.tbxPassword.Size = new System.Drawing.Size(349, 25);
@@ -115,30 +156,10 @@
             // 
             // tbxUsername
             // 
-            this.tbxUsername.Location = new System.Drawing.Point(289, 136);
+            this.tbxUsername.Location = new System.Drawing.Point(281, 107);
             this.tbxUsername.Name = "tbxUsername";
             this.tbxUsername.Size = new System.Drawing.Size(349, 25);
             this.tbxUsername.TabIndex = 3;
-            // 
-            // btnSeePswd1
-            // 
-            this.btnSeePswd1.Location = new System.Drawing.Point(644, 197);
-            this.btnSeePswd1.Name = "btnSeePswd1";
-            this.btnSeePswd1.Size = new System.Drawing.Size(33, 23);
-            this.btnSeePswd1.TabIndex = 7;
-            this.btnSeePswd1.Text = "*";
-            this.btnSeePswd1.UseVisualStyleBackColor = true;
-            this.btnSeePswd1.Click += new System.EventHandler(this.btnSeePswd1_Click);
-            // 
-            // btnSeePswd2
-            // 
-            this.btnSeePswd2.Location = new System.Drawing.Point(644, 257);
-            this.btnSeePswd2.Name = "btnSeePswd2";
-            this.btnSeePswd2.Size = new System.Drawing.Size(33, 23);
-            this.btnSeePswd2.TabIndex = 8;
-            this.btnSeePswd2.Text = "*";
-            this.btnSeePswd2.UseVisualStyleBackColor = true;
-            this.btnSeePswd2.Click += new System.EventHandler(this.btnSeePswd2_Click);
             // 
             // SignUpForm
             // 
@@ -168,5 +189,7 @@
         private System.Windows.Forms.TextBox tbxUsername;
         private System.Windows.Forms.Button btnSeePswd2;
         private System.Windows.Forms.Button btnSeePswd1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbxMailAddress;
     }
 }

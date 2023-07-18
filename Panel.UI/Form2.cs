@@ -34,14 +34,21 @@ namespace Panel.UI
             {
                 try
                 {
-                    _userService.SignUp(new User
+                    _userService.ControlUsername(new User
                     {
                         Username = tbxUsername.Text,
-                        Password = tbxPassword.Text
+                        Password = tbxPassword.Text,
+                        Mail = tbxMailAddress.Text
                     });
-                    MessageBox.Show("Başarıyla kayıt oldunuz! Lütfen giriş yapınız.");
-                    
-                    this.Close();
+                    _userService.ControlMail(new User
+                    {
+                        Username = tbxUsername.Text,
+                        Password = tbxPassword.Text,
+                        Mail = tbxMailAddress.Text
+                    });
+                    MailVerificationForm mailVerificationForm = new MailVerificationForm(tbxUsername.Text,tbxPassword.Text,tbxMailAddress.Text);
+                    mailVerificationForm.Show();
+                    this.Hide();
                 }
                 catch (Exception exception)
                 {
@@ -78,6 +85,11 @@ namespace Panel.UI
             {
                 tbxPasswordVerification.PasswordChar = '*';
             }
+        }
+
+        private void gbxLogin_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
